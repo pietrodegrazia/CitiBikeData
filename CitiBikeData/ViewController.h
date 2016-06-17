@@ -7,6 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CSVInteractor.h"
+#import "StationInteractor.h"
+#import "Station.h"
 
 @interface ViewController : UIViewController
 

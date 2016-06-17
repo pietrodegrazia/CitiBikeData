@@ -13,6 +13,10 @@
 		5232914E1D13935900BFF4AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5232914C1D13935900BFF4AB /* Main.storyboard */; };
 		523291501D13935900BFF4AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5232914F1D13935900BFF4AB /* Assets.xcassets */; };
 		523291531D13935900BFF4AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 523291511D13935900BFF4AB /* LaunchScreen.storyboard */; };
+		5232915D1D1394D100BFF4AB /* FileHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5232915C1D1394D100BFF4AB /* FileHelper.m */; };
+		523291611D139B6000BFF4AB /* CSVInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 523291601D139B6000BFF4AB /* CSVInteractor.m */; };
+		523291631D139CE300BFF4AB /* StationsCSV.csv in Resources */ = {isa = PBXBuildFile; fileRef = 523291621D139CE300BFF4AB /* StationsCSV.csv */; };
+		529E662D1D13ADBA00A8A239 /* StationInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 529E662C1D13ADBA00A8A239 /* StationInteractor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,14 @@
 		5232914F1D13935900BFF4AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		523291521D13935900BFF4AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		523291541D13935900BFF4AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5232915B1D1394D100BFF4AB /* FileHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileHelper.h; sourceTree = "<group>"; };
+		5232915C1D1394D100BFF4AB /* FileHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileHelper.m; sourceTree = "<group>"; };
+		5232915F1D139B6000BFF4AB /* CSVInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSVInteractor.h; sourceTree = "<group>"; };
+		523291601D139B6000BFF4AB /* CSVInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSVInteractor.m; sourceTree = "<group>"; };
+		523291621D139CE300BFF4AB /* StationsCSV.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = StationsCSV.csv; sourceTree = "<group>"; };
+		523291651D13A33600BFF4AB /* Station.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Station.h; sourceTree = "<group>"; };
+		529E662B1D13ADBA00A8A239 /* StationInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StationInteractor.h; sourceTree = "<group>"; };
+		529E662C1D13ADBA00A8A239 /* StationInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StationInteractor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,15 +70,19 @@
 		523291421D13935900BFF4AB /* CitiBikeData */ = {
 			isa = PBXGroup;
 			children = (
+				523291641D13A2FA00BFF4AB /* Station */,
 				523291461D13935900BFF4AB /* AppDelegate.h */,
 				523291471D13935900BFF4AB /* AppDelegate.m */,
+				5232914F1D13935900BFF4AB /* Assets.xcassets */,
+				5232915E1D139B3E00BFF4AB /* CSV */,
+				5232915A1D1394A000BFF4AB /* Helpers */,
+				523291541D13935900BFF4AB /* Info.plist */,
+				523291511D13935900BFF4AB /* LaunchScreen.storyboard */,
+				523291621D139CE300BFF4AB /* StationsCSV.csv */,
+				5232914C1D13935900BFF4AB /* Main.storyboard */,
+				523291431D13935900BFF4AB /* Supporting Files */,
 				523291491D13935900BFF4AB /* ViewController.h */,
 				5232914A1D13935900BFF4AB /* ViewController.m */,
-				5232914C1D13935900BFF4AB /* Main.storyboard */,
-				5232914F1D13935900BFF4AB /* Assets.xcassets */,
-				523291511D13935900BFF4AB /* LaunchScreen.storyboard */,
-				523291541D13935900BFF4AB /* Info.plist */,
-				523291431D13935900BFF4AB /* Supporting Files */,
 			);
 			path = CitiBikeData;
 			sourceTree = "<group>";
@@ -77,6 +93,34 @@
 				523291441D13935900BFF4AB /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5232915A1D1394A000BFF4AB /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				5232915B1D1394D100BFF4AB /* FileHelper.h */,
+				5232915C1D1394D100BFF4AB /* FileHelper.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		5232915E1D139B3E00BFF4AB /* CSV */ = {
+			isa = PBXGroup;
+			children = (
+				5232915F1D139B6000BFF4AB /* CSVInteractor.h */,
+				523291601D139B6000BFF4AB /* CSVInteractor.m */,
+			);
+			path = CSV;
+			sourceTree = "<group>";
+		};
+		523291641D13A2FA00BFF4AB /* Station */ = {
+			isa = PBXGroup;
+			children = (
+				523291651D13A33600BFF4AB /* Station.h */,
+				529E662B1D13ADBA00A8A239 /* StationInteractor.h */,
+				529E662C1D13ADBA00A8A239 /* StationInteractor.m */,
+			);
+			path = Station;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +182,7 @@
 			files = (
 				523291531D13935900BFF4AB /* LaunchScreen.storyboard in Resources */,
 				523291501D13935900BFF4AB /* Assets.xcassets in Resources */,
+				523291631D139CE300BFF4AB /* StationsCSV.csv in Resources */,
 				5232914E1D13935900BFF4AB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -152,6 +197,9 @@
 				5232914B1D13935900BFF4AB /* ViewController.m in Sources */,
 				523291481D13935900BFF4AB /* AppDelegate.m in Sources */,
 				523291451D13935900BFF4AB /* main.m in Sources */,
+				5232915D1D1394D100BFF4AB /* FileHelper.m in Sources */,
+				523291611D139B6000BFF4AB /* CSVInteractor.m in Sources */,
+				529E662D1D13ADBA00A8A239 /* StationInteractor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +348,7 @@
 				523291591D13935900BFF4AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
