@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		523291451D13935900BFF4AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 523291441D13935900BFF4AB /* main.m */; };
+		523291481D13935900BFF4AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 523291471D13935900BFF4AB /* AppDelegate.m */; };
+		5232914B1D13935900BFF4AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5232914A1D13935900BFF4AB /* ViewController.m */; };
+		5232914E1D13935900BFF4AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5232914C1D13935900BFF4AB /* Main.storyboard */; };
+		523291501D13935900BFF4AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5232914F1D13935900BFF4AB /* Assets.xcassets */; };
+		523291531D13935900BFF4AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 523291511D13935900BFF4AB /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		523291401D13935900BFF4AB /* CitiBikeData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CitiBikeData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		523291441D13935900BFF4AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		523291461D13935900BFF4AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		523291471D13935900BFF4AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		523291491D13935900BFF4AB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5232914A1D13935900BFF4AB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5232914D1D13935900BFF4AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5232914F1D13935900BFF4AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		523291521D13935900BFF4AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		523291541D13935900BFF4AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5232913D1D13935900BFF4AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		523291371D13935900BFF4AB = {
+			isa = PBXGroup;
+			children = (
+				523291421D13935900BFF4AB /* CitiBikeData */,
+				523291411D13935900BFF4AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		523291411D13935900BFF4AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				523291401D13935900BFF4AB /* CitiBikeData.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		523291421D13935900BFF4AB /* CitiBikeData */ = {
+			isa = PBXGroup;
+			children = (
+				523291461D13935900BFF4AB /* AppDelegate.h */,
+				523291471D13935900BFF4AB /* AppDelegate.m */,
+				523291491D13935900BFF4AB /* ViewController.h */,
+				5232914A1D13935900BFF4AB /* ViewController.m */,
+				5232914C1D13935900BFF4AB /* Main.storyboard */,
+				5232914F1D13935900BFF4AB /* Assets.xcassets */,
+				523291511D13935900BFF4AB /* LaunchScreen.storyboard */,
+				523291541D13935900BFF4AB /* Info.plist */,
+				523291431D13935900BFF4AB /* Supporting Files */,
+			);
+			path = CitiBikeData;
+			sourceTree = "<group>";
+		};
+		523291431D13935900BFF4AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				523291441D13935900BFF4AB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5232913F1D13935900BFF4AB /* CitiBikeData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 523291571D13935900BFF4AB /* Build configuration list for PBXNativeTarget "CitiBikeData" */;
+			buildPhases = (
+				5232913C1D13935900BFF4AB /* Sources */,
+				5232913D1D13935900BFF4AB /* Frameworks */,
+				5232913E1D13935900BFF4AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CitiBikeData;
+			productName = CitiBikeData;
+			productReference = 523291401D13935900BFF4AB /* CitiBikeData.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		523291381D13935900BFF4AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = PDG;
+				TargetAttributes = {
+					5232913F1D13935900BFF4AB = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 5232913B1D13935900BFF4AB /* Build configuration list for PBXProject "CitiBikeData" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 523291371D13935900BFF4AB;
+			productRefGroup = 523291411D13935900BFF4AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5232913F1D13935900BFF4AB /* CitiBikeData */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5232913E1D13935900BFF4AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				523291531D13935900BFF4AB /* LaunchScreen.storyboard in Resources */,
+				523291501D13935900BFF4AB /* Assets.xcassets in Resources */,
+				5232914E1D13935900BFF4AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5232913C1D13935900BFF4AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5232914B1D13935900BFF4AB /* ViewController.m in Sources */,
+				523291481D13935900BFF4AB /* AppDelegate.m in Sources */,
+				523291451D13935900BFF4AB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5232914C1D13935900BFF4AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5232914D1D13935900BFF4AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		523291511D13935900BFF4AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				523291521D13935900BFF4AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		523291551D13935900BFF4AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		523291561D13935900BFF4AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		523291581D13935900BFF4AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CitiBikeData/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PDG.CitiBikeData;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		523291591D13935900BFF4AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CitiBikeData/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PDG.CitiBikeData;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5232913B1D13935900BFF4AB /* Build configuration list for PBXProject "CitiBikeData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				523291551D13935900BFF4AB /* Debug */,
+				523291561D13935900BFF4AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		523291571D13935900BFF4AB /* Build configuration list for PBXNativeTarget "CitiBikeData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				523291581D13935900BFF4AB /* Debug */,
+				523291591D13935900BFF4AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 523291381D13935900BFF4AB /* Project object */;
+}
