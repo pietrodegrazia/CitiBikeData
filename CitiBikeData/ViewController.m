@@ -1,4 +1,4 @@
-//
+    //
 //  ViewController.m
 //  CitiBikeData
 //
@@ -9,7 +9,9 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-
+{
+    BPTreeInteractor *treeInteractor;
+}
 @end
 
 @implementation ViewController
@@ -17,20 +19,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    //Carrega CSV pra arquivo serial
-    [CSVInteractor parseCSVToFile];
-    
-    //Carrega indice
-    
-    
-    //permite pesquisa
-    //1.por chave
-    //2.por intervalo
-    //3.lista ordenada
-    //4.lista inversa
-    
-    //busca no arquivo por offset
-    Station station = [StationInteractor fetchStationAtIndex:[@1 intValue]];
     
 }
 

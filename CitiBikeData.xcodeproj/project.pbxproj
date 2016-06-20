@@ -17,6 +17,16 @@
 		523291611D139B6000BFF4AB /* CSVInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 523291601D139B6000BFF4AB /* CSVInteractor.m */; };
 		523291631D139CE300BFF4AB /* StationsCSV.csv in Resources */ = {isa = PBXBuildFile; fileRef = 523291621D139CE300BFF4AB /* StationsCSV.csv */; };
 		529E662D1D13ADBA00A8A239 /* StationInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 529E662C1D13ADBA00A8A239 /* StationInteractor.m */; };
+		529E66321D13B11000A8A239 /* bpt.cc in Sources */ = {isa = PBXBuildFile; fileRef = 529E662F1D13B11000A8A239 /* bpt.cc */; };
+		529E66381D13BC9F00A8A239 /* BPTree.mm in Sources */ = {isa = PBXBuildFile; fileRef = 529E66371D13BC9F00A8A239 /* BPTree.mm */; };
+		529E663C1D13C05800A8A239 /* BPTreeInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 529E663B1D13C05800A8A239 /* BPTreeInteractor.m */; };
+		52B2F4F01D16E36700AD9386 /* CPTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52B2F4EF1D16E36700AD9386 /* CPTableViewController.m */; };
+		52C285171D16E9430016737E /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C2850E1D16E9430016737E /* SVIndefiniteAnimatedView.m */; };
+		52C285181D16E9430016737E /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C285101D16E9430016737E /* SVProgressAnimatedView.m */; };
+		52C285191D16E9430016737E /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 52C285121D16E9430016737E /* SVProgressHUD.bundle */; };
+		52C2851A1D16E9430016737E /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C285141D16E9430016737E /* SVProgressHUD.m */; };
+		52C2851B1D16E9430016737E /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C285161D16E9430016737E /* SVRadialGradientLayer.m */; };
+		52C285241D1735270016737E /* ResultTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C285231D1735270016737E /* ResultTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +48,27 @@
 		523291651D13A33600BFF4AB /* Station.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Station.h; sourceTree = "<group>"; };
 		529E662B1D13ADBA00A8A239 /* StationInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StationInteractor.h; sourceTree = "<group>"; };
 		529E662C1D13ADBA00A8A239 /* StationInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StationInteractor.m; sourceTree = "<group>"; };
+		529E662F1D13B11000A8A239 /* bpt.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bpt.cc; sourceTree = "<group>"; };
+		529E66301D13B11000A8A239 /* bpt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bpt.h; sourceTree = "<group>"; };
+		529E66311D13B11000A8A239 /* predefined.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; path = predefined.h; sourceTree = "<group>"; };
+		529E66361D13BC9F00A8A239 /* BPTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPTree.h; sourceTree = "<group>"; };
+		529E66371D13BC9F00A8A239 /* BPTree.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BPTree.mm; sourceTree = "<group>"; };
+		529E663A1D13C05800A8A239 /* BPTreeInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPTreeInteractor.h; sourceTree = "<group>"; };
+		529E663B1D13C05800A8A239 /* BPTreeInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPTreeInteractor.m; sourceTree = "<group>"; };
+		52B2F4EE1D16E36700AD9386 /* CPTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTableViewController.h; sourceTree = "<group>"; };
+		52B2F4EF1D16E36700AD9386 /* CPTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPTableViewController.m; sourceTree = "<group>"; };
+		52C2850D1D16E9430016737E /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		52C2850E1D16E9430016737E /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		52C2850F1D16E9430016737E /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		52C285101D16E9430016737E /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		52C285111D16E9430016737E /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		52C285121D16E9430016737E /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		52C285131D16E9430016737E /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		52C285141D16E9430016737E /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		52C285151D16E9430016737E /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		52C285161D16E9430016737E /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		52C285221D1735270016737E /* ResultTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultTableViewController.h; sourceTree = "<group>"; };
+		52C285231D1735270016737E /* ResultTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +101,9 @@
 		523291421D13935900BFF4AB /* CitiBikeData */ = {
 			isa = PBXGroup;
 			children = (
+				52C2850C1D16E9430016737E /* SVProgressHUD */,
+				52B2F4EA1D16E08300AD9386 /* Controllers */,
+				529E662E1D13B10500A8A239 /* BPTree */,
 				523291641D13A2FA00BFF4AB /* Station */,
 				523291461D13935900BFF4AB /* AppDelegate.h */,
 				523291471D13935900BFF4AB /* AppDelegate.m */,
@@ -121,6 +155,80 @@
 				529E662C1D13ADBA00A8A239 /* StationInteractor.m */,
 			);
 			path = Station;
+			sourceTree = "<group>";
+		};
+		529E662E1D13B10500A8A239 /* BPTree */ = {
+			isa = PBXGroup;
+			children = (
+				529E66391D13C04300A8A239 /* Interactor */,
+				529E663D1D13C9AE00A8A239 /* bpt */,
+				529E66361D13BC9F00A8A239 /* BPTree.h */,
+				529E66371D13BC9F00A8A239 /* BPTree.mm */,
+			);
+			path = BPTree;
+			sourceTree = "<group>";
+		};
+		529E66391D13C04300A8A239 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				529E663A1D13C05800A8A239 /* BPTreeInteractor.h */,
+				529E663B1D13C05800A8A239 /* BPTreeInteractor.m */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		529E663D1D13C9AE00A8A239 /* bpt */ = {
+			isa = PBXGroup;
+			children = (
+				529E662F1D13B11000A8A239 /* bpt.cc */,
+				529E66301D13B11000A8A239 /* bpt.h */,
+				529E66311D13B11000A8A239 /* predefined.h */,
+			);
+			name = bpt;
+			sourceTree = "<group>";
+		};
+		52B2F4EA1D16E08300AD9386 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				52C285211D1735020016737E /* ResultTable */,
+				52C2851C1D16E9620016737E /* CPTable */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		52C2850C1D16E9430016737E /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				52C2850D1D16E9430016737E /* SVIndefiniteAnimatedView.h */,
+				52C2850E1D16E9430016737E /* SVIndefiniteAnimatedView.m */,
+				52C2850F1D16E9430016737E /* SVProgressAnimatedView.h */,
+				52C285101D16E9430016737E /* SVProgressAnimatedView.m */,
+				52C285111D16E9430016737E /* SVProgressHUD-Prefix.pch */,
+				52C285121D16E9430016737E /* SVProgressHUD.bundle */,
+				52C285131D16E9430016737E /* SVProgressHUD.h */,
+				52C285141D16E9430016737E /* SVProgressHUD.m */,
+				52C285151D16E9430016737E /* SVRadialGradientLayer.h */,
+				52C285161D16E9430016737E /* SVRadialGradientLayer.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		52C2851C1D16E9620016737E /* CPTable */ = {
+			isa = PBXGroup;
+			children = (
+				52B2F4EE1D16E36700AD9386 /* CPTableViewController.h */,
+				52B2F4EF1D16E36700AD9386 /* CPTableViewController.m */,
+			);
+			name = CPTable;
+			sourceTree = "<group>";
+		};
+		52C285211D1735020016737E /* ResultTable */ = {
+			isa = PBXGroup;
+			children = (
+				52C285221D1735270016737E /* ResultTableViewController.h */,
+				52C285231D1735270016737E /* ResultTableViewController.m */,
+			);
+			path = ResultTable;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,6 +288,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52C285191D16E9430016737E /* SVProgressHUD.bundle in Resources */,
 				523291531D13935900BFF4AB /* LaunchScreen.storyboard in Resources */,
 				523291501D13935900BFF4AB /* Assets.xcassets in Resources */,
 				523291631D139CE300BFF4AB /* StationsCSV.csv in Resources */,
@@ -196,10 +305,19 @@
 			files = (
 				5232914B1D13935900BFF4AB /* ViewController.m in Sources */,
 				523291481D13935900BFF4AB /* AppDelegate.m in Sources */,
+				529E663C1D13C05800A8A239 /* BPTreeInteractor.m in Sources */,
+				529E66381D13BC9F00A8A239 /* BPTree.mm in Sources */,
 				523291451D13935900BFF4AB /* main.m in Sources */,
+				52B2F4F01D16E36700AD9386 /* CPTableViewController.m in Sources */,
+				529E66321D13B11000A8A239 /* bpt.cc in Sources */,
+				52C2851B1D16E9430016737E /* SVRadialGradientLayer.m in Sources */,
 				5232915D1D1394D100BFF4AB /* FileHelper.m in Sources */,
 				523291611D139B6000BFF4AB /* CSVInteractor.m in Sources */,
+				52C285241D1735270016737E /* ResultTableViewController.m in Sources */,
+				52C2851A1D16E9430016737E /* SVProgressHUD.m in Sources */,
+				52C285171D16E9430016737E /* SVIndefiniteAnimatedView.m in Sources */,
 				529E662D1D13ADBA00A8A239 /* StationInteractor.m in Sources */,
+				52C285181D16E9430016737E /* SVProgressAnimatedView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

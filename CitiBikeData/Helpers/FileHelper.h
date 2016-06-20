@@ -12,6 +12,8 @@
 
 +(NSString*) pathForStationsData;
 
++(NSString*) pathForStationsIdIndex;
+
 +(NSString*) pathForStationsCSV;
 
 @end

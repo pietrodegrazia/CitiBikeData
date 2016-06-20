@@ -15,6 +15,18 @@
     return csvPath;
 }
 
++(NSString*) pathForStationsIdIndex {
+    NSArray *directoryPaths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    NSString *documentsDirectoryPath = [directoryPaths objectAtIndex:0];
+    NSString *stationDataPath = [documentsDirectoryPath stringByAppendingPathComponent:@"stationIdIndex.dat"];
+    
+    NSFileManager *fileManager= [NSFileManager defaultManager];
+    if(![fileManager fileExistsAtPath:stationDataPath])
+        [fileManager createFileAtPath:stationDataPath contents:nil attributes:nil];
+    
+    return stationDataPath;
+}
+
 +(NSString*) pathForStationsData {
     NSArray *directoryPaths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
     NSString *documentsDirectoryPath = [directoryPaths objectAtIndex:0];

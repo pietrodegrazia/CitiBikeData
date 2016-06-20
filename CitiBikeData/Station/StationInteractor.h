@@ -9,11 +9,14 @@
 #import <Foundation/Foundation.h>
 #import "Station.h"
 #import "FileHelper.h"
+#import "BPTreeInteractor.h"
 
 @interface StationInteractor : NSObject
 
 +(void)dumpStationDataFile;
 
 +(Station)fetchStationAtIndex: (int)index;
+
++(void) populateIndexFromInteractor:(BPTreeInteractor*)interactor;
 
 @end

@@ -31,7 +31,7 @@
     FILE *dataFile = fopen(stationDataPathCharPointer, stationDataFileOptions);
     
     Station station;
-    
+
     char* currentLine = NULL;
     size_t len = 0;
     ssize_t read;
@@ -60,7 +60,6 @@
         
         currentField = strtok(NULL, csvDelimeter);
         strcpy(station.address, currentField);
-        
         
         fwrite(&station, sizeof(Station), 1, dataFile);
     }
