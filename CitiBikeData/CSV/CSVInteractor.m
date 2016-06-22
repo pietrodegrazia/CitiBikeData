@@ -12,7 +12,7 @@
 
 +(void) parseCSVToFile {
     NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
-    
+//    [userDefaults removeObjectForKey:@"hasParsedStationsCSV"];
     if ([userDefaults boolForKey:@"hasParsedStationsCSV"]) {
         printf("\nCSV file has already been parsed\n");
         return;

@@ -22,14 +22,17 @@
     //Carrega indice
     treeInteractor = [[BPTreeInteractor alloc]init];
     [treeInteractor loadStationIdIndex: false];
-//    [StationInteractor populateIndexFromInteractor:treeInteractor];
+    
 //    [treeInteractor dumpTree];
+    
     
     //permite pesquisa
     //1.por chave √
     //2.por intervalo √
     //3.lista ordenada √
     //4.lista inversa √
+    
+    
     
 }
 
@@ -41,6 +44,7 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     NSLog(@"%@", indexPath);
     self.tableView.allowsSelection = false;
+    [tableView deselectRowAtIndexPath:indexPath animated:true];
     switch (indexPath.section) {
         case Search:
             switch (indexPath.row) {
@@ -80,7 +84,8 @@
         int fileIndex = [treeInteractor valueForKey:stationId];
         if (fileIndex == -1) {
             NSLog(@"Nao encontrou identificador");
-//            [SVProgressHUD showErrorWithStatus:@"Identificador não encontrado!"];
+            [SVProgressHUD showErrorWithStatus:@"Nao encontrou identificador"];
+            self.tableView.allowsSelection = true;
             return;
         }
 
@@ -121,6 +126,10 @@
         vc.results = sender;
         NSLog(@"");
     }
+}
+
+- (IBAction)updateIndex:(id)sender {
+    [StationInteractor populateIndexFromInteractor:treeInteractor];
 }
 
 @end

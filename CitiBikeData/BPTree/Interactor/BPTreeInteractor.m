@@ -29,12 +29,7 @@
 }
 
 - (int) valueForKey: (NSString*) key {
-    int value = [tree findKey:key.UTF8String];
-    if (value != -1) {
-        return value;
-    } else {
-        return -1;
-    }
+    return [tree findKey:key.UTF8String];
 }
 
 - (NSArray*) valuesForRangeWith: (NSString*) key andKey:(NSString*)secondKey {
